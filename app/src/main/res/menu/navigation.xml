@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_cricket"
+        android:icon="@drawable/ic_bats_man"
+        android:title="" />
+
+    <!--<item-->
+        <!--android:id="@+id/navigation_football"-->
+        <!--android:icon="@drawable/ic_football_player"-->
+        <!--android:title="" />-->
+
+    <item
+        android:id="@+id/navigation_tenis"
+        android:icon="@drawable/ic_table_tennis"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_boxing"
+        android:icon="@drawable/ic_boxing"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_golf"
+        android:icon="@drawable/ic_golf_player"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_horse_racing"
+        android:icon="@drawable/ic_horse_riding"
+        android:title="" />
+
+</menu>
