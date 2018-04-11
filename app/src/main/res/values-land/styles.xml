@@ -18,7 +18,7 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="listTitle">
-        <item name="android:textSize">13sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:text">Title</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -29,7 +29,7 @@
     </style>
 
     <style name="listDescription">
-        <item name="android:textSize">13dp</item>
+        <item name="android:textSize">18dp</item>
         <item name="android:text">Description</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -39,7 +39,7 @@
     </style>
 
     <style name="listContinue">
-        <item name="android:textSize">13dp</item>
+        <item name="android:textSize">17dp</item>
         <item name="android:text">Continue Reading...</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

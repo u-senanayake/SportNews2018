@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Objects;
+
 import senanayake.udayanga.com.sportnews.R;
 
 public class ViewActivity extends AppCompatActivity {
@@ -22,7 +24,7 @@ public class ViewActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         setData();
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
     }
 
     public void setData() {
@@ -32,7 +34,6 @@ public class ViewActivity extends AppCompatActivity {
         String description = bundle.getString("description");
         Bitmap bitmap = intent.getParcelableExtra("bitmap");
 
-
         viewTitle = findViewById(R.id.viewTitle);
         viewDec = findViewById(R.id.viewDescription);
         imageView = findViewById(R.id.viewImageView);
@@ -40,6 +41,8 @@ public class ViewActivity extends AppCompatActivity {
         viewTitle.setText(title);
         viewDec.setText(description);
         imageView.setImageBitmap(bitmap);
+
     }
+
 
 }

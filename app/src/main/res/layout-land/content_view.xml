@@ -9,32 +9,31 @@
     tools:context="senanayake.udayanga.com.sportnews.activity.ViewActivity"
     tools:showIn="@layout/activity_view">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:padding="5dp">
 
-            <LinearLayout
+            <ImageView
+                android:id="@+id/viewImageView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="0dp"
-                android:layout_marginRight="0dp"
-                android:layout_marginTop="0dp"
-                android:orientation="vertical"
-                android:padding="5dp">
+                android:layout_height="200dp"
+                android:background="@drawable/loading_shape" />
+        </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/viewImageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:background="@drawable/loading_shape" />
-            </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -47,16 +46,16 @@
 
                 <TextView
                     android:id="@+id/viewTitle"
-                    style="@style/viewTitle"
-                    />
+                    style="@style/viewTitle" />
 
                 <TextView
                     android:id="@+id/viewDescription"
-                    style="@style/viewDescription"
-                    />
+                    style="@style/viewDescription" />
             </LinearLayout>
-        </LinearLayout>
 
 
-    </ScrollView>
+        </ScrollView>
+
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

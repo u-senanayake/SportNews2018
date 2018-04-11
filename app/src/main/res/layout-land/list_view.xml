@@ -11,7 +11,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="150dp"
+        android:layout_width="250dp"
         android:layout_height="match_parent"
         android:background="@drawable/loading_shape" />
 

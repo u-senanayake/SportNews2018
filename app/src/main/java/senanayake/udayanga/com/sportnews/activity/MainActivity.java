@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements AsyncResponse {
     String url1 = "https://skysportsapi.herokuapp.com/sky/getnews/";
     String url3 = "/v1.0/";
 
-
     ProgressDialog progressDialog;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
